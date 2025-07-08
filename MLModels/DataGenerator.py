@@ -21,6 +21,7 @@ data = {
 
 df = pd.DataFrame(data)
 
+
 # Fix negative or zero amounts
 df['transaction_amount'] = df['transaction_amount'].apply(lambda x: x if x > 0 else np.random.uniform(1, 10))
 

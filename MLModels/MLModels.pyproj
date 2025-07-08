@@ -26,6 +26,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="anamolydete.pbix" />
+    <Content Include="weather.pbix" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
